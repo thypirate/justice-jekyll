@@ -6,7 +6,10 @@ author:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+<<<<<<< HEAD
   - jekyll-coffeescript
+=======
+>>>>>>> master
 
 exclude:
   - LICENSE
