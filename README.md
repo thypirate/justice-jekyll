@@ -3,7 +3,7 @@
 [Justice](https://freehtml5.co/justice-free-html5-bootstrap-template-for-lawyer-websites/) is a theme for [Jekyll](https://jekyllrb.com) adapted from the [Bootstrap](https://getbootstrap.com/) based theme with the same name from the good folks at [FreeHTML5.co](https://freehtml5.co/).
 
 ## Preview
-[![Fresh](https://github.com/thypirate/justice-jekyll/blob/master/screenshot.png)](https://thypirate.github.io/justice-jekyll/)
+[![Justice](https://github.com/thypirate/justice-jekyll/blob/master/justice.gif)](https://thypirate.github.io/justice-jekyll/)
 
 ## Download and Installing
 You can either:
@@ -11,9 +11,9 @@ You can either:
 * Download, Fork or Clone on Github.
 
 ## How to use
-* You can edit and add new entries in the ```_config.yml``` to suit your needs.
+* You can edit and add new entries like Jekyll plugins in the ```_config.yml``` to suit your needs.
 
 ## Build
-While in the root of you site there are two commands you can use to build:
-* ```jekyll build``` - Builds the site and outputs in the ```_site``` directory.
-* ```jekyll serve``` - Does the same and rebuilds when you make changes to the site and runs a local web server at ```http://localhost:4000```.
+While in the root of you site execute the following commands to build:
+* ```bundle install``` - Install the dependencies with [Bundler](https://bundler.io/).
+* ```bundle exec jekyll serve``` - Build the site and make it available on a local server at ```http://localhost:4000```.
